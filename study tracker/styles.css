@@ -1,0 +1,46 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #4CAF50;
+}
+
+#weeks-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.week {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.week h2 {
+  margin-top: 0;
+  color: #4CAF50;
+}
+
+.topic {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.topic input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+.topic label {
+  flex-grow: 1;
+}
